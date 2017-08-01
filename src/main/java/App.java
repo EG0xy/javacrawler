@@ -2,8 +2,6 @@ import org.apache.commons.lang3.tuple.Pair;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriverService;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -49,28 +47,8 @@ public class App {
 
 
     public static void main(String[] args) {
-        //设置必要参数
-        DesiredCapabilities dcaps = new DesiredCapabilities();
-        //ssl证书支持
-        dcaps.setCapability("acceptSslCerts", true);
-        //截屏支持
-        dcaps.setCapability("takesScreenshot", true);
-        //css搜索支持
-        dcaps.setCapability("cssSelectorsEnabled", true);
-        //js支持
-        dcaps.setJavascriptEnabled(true);
-        org.openqa.selenium.Proxy proxy = new org.openqa.selenium.Proxy();
-//        String PROXY = "localhost:1080";
-//        proxy.setHttpProxy(PROXY)
-//             .setFtpProxy(PROXY)
-//             .setSslProxy(PROXY);
-//        dcaps.setCapability(CapabilityType.PROXY, proxy);
+        PhantomJSDriver driver = Utils.getPhantomJSDriver();
 
-        //驱动支持
-        dcaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
-                "E:\\workspace\\brandcrawler\\src\\main\\resources\\phantomjs.exe");
-        //创建无界面浏览器对象
-        PhantomJSDriver driver = new PhantomJSDriver(dcaps);
         try (FileWriter fw = new FileWriter(new File("D:\\brands.txt"))) {
             // 让浏览器访问空间主页
             for (int i = 1; i < 26; i++) {
@@ -146,6 +124,8 @@ public class App {
         }
 
     }
+
+
 
     private static Set<String> resloveBrandName(final List<WebElement> allLink) {
         Set<String> result = new HashSet<>();
