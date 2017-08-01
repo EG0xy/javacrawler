@@ -4,6 +4,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**
+ * 功能1测试
  * @author holysky.zhao 2017/7/27 11:13
  * @version 1.0.0
  */
