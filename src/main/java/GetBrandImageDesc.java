@@ -49,9 +49,6 @@ public class GetBrandImageDesc {
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
-
-
-
     }
 
     static class YoudaoOCR{
