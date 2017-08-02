@@ -1,3 +1,6 @@
+import org.openqa.selenium.Proxy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.CapabilityType;
@@ -33,5 +36,19 @@ public class Utils {
                 "E:\\workspace\\brandcrawler\\src\\main\\resources\\phantomjs.exe");
         //创建无界面浏览器对象
         return new PhantomJSDriver(dcaps);
+    }
+
+    public static WebDriver getChromeDriver() {
+        System.setProperty("webdriver.chrome.driver", "E:\\workspace\\brandcrawler\\src\\main\\resources\\chromedriver.exe");
+        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        Proxy proxy = new Proxy();
+        proxy.setHttpProxy("192.168.1.146:808");
+//        proxy.setHttpProxy("127.0.0.1:1080");
+        capabilities.setCapability("proxy", proxy);
+// Add ChromeDriver-specific capabilities through ChromeOptions.
+//        ChromeOptions options = new ChromeOptions();
+//        options.addExtensions(new File("/path/to/extension.crx"));
+//        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+        return new ChromeDriver(capabilities);
     }
 }

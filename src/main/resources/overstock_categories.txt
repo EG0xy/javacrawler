@@ -1,0 +1,110 @@
+Baby Gifts|https://www.overstock.com/Baby/Baby-Gifts/121/dept.html
+Baby Bedding|https://www.overstock.com/Baby/Baby-Bedding/265/dept.html
+Diapering & Potty|https://www.overstock.com/Baby/Diapering-Potty/269/dept.html
+Baby Toys|https://www.overstock.com/Baby/Baby-Toys/272/dept.html
+Feeding|https://www.overstock.com/Baby/Baby-Bedding/265/dept.html
+Baby Gear|https://www.overstock.com/Baby/Baby-Gear/242/dept.html
+Health & Child Safety|https://www.overstock.com/Baby/Health-Child-Safety/270/dept.html
+Baby Furniture|https://www.overstock.com/Baby/Baby-Furniture/266/dept.html
+Nursery Decor|https://www.overstock.com/Baby/Nursery-Decor/267/dept.html
+Bath & Skin Care|https://www.overstock.com/Baby/Bath-Skin-Care/268/dept.html
+Baby Clothing|https://www.overstock.com/Baby/Baby-Clothing/271/dept.html
+Moms & Maternity|https://www.overstock.com/Baby/Moms-Maternity/408/dept.html
+Fashion Bedding|https://www.overstock.com/Bedding-Bath/Fashion-Bedding/454/dept.html
+Blankets & Throws|https://www.overstock.com/Bedding-Bath/Blankets-Throws/452/dept.html
+Mattress Pads & Protectors|https://www.overstock.com/Bedding-Bath/Mattress-Pads-Toppers/456/dept.html
+Down Bedding|https://www.overstock.com/Bedding-Bath/Down-Bedding/453/dept.html
+Sheets & Pillowcases|https://www.overstock.com/Bedding-Bath/Sheets-Pillowcases/459/dept.html
+Kids' & Teen Bedding|https://www.overstock.com/Bedding-Bath/Kids-Teen-Bedding/455/dept.html
+Bath & Towels|https://www.overstock.com/Bedding-Bath/Bath-Towels/450/dept.html
+Bedding Accessories|https://www.overstock.com/Bedding-Bath/Bedding-Accessories/451/dept.html
+Pillows & Protectors|https://www.overstock.com/Bedding-Bath/Pillows-Protectors/458/dept.html
+Memory Foam|https://www.overstock.com/Bedding-Bath/Memory-Foam/457/dept.html
+Accessories|https://www.overstock.com/Clothing-Shoes/Accessories/28/dept.html
+Handbags|https://www.overstock.com/Clothing-Shoes/Handbags/111/dept.html
+Children's Clothing|https://www.overstock.com/Clothing-Shoes/Childrens-Clothing/27/dept.html
+Designer Store|https://www.overstock.com/Clothing-Shoes/Designer-Store/211/dept.html
+Men's Activewear|https://www.overstock.com/Clothing-Shoes/Mens-Activewear/113/dept.html
+Women's Clothing|https://www.overstock.com/Clothing-Shoes/Womens-Clothing/213/dept.html
+Women's Sport Clothing|https://www.overstock.com/Clothing-Shoes/Womens-Sport-Clothing/117/dept.html
+Men's Clothing|https://www.overstock.com/Clothing-Shoes/Mens-Clothing/26/dept.html
+Sunglasses|https://www.overstock.com/Clothing-Shoes/Sunglasses/234/dept.html
+Crafts|https://www.overstock.com/Crafts-Sewing/Crafts/261/dept.html
+Lighting|https://www.overstock.com/Crafts-Sewing/Lighting/262/dept.html
+Sewing & Needlework|https://www.overstock.com/Crafts-Sewing/Sewing-Needlework/263/dept.html
+Scrap Booking|https://www.overstock.com/Crafts-Sewing/Scrapbooking/260/dept.html
+Craft Lover's Gifts|https://www.overstock.com/Crafts-Sewing/Craft-Lovers-Gifts/291/dept.html
+Art Supplies|https://www.overstock.com/Crafts-Sewing/Art-Supplies/444/dept.html
+Home Theater|https://www.overstock.com/Electronics/Home-Theater/2167/cat.html
+Computer Hardware & Software|https://www.overstock.com/Electronics/Computers-Hardware-Software/7/dept.html
+Cameras & Photo|https://www.overstock.com/Electronics/Cameras-Photo/6/dept.html
+Home Office Equipment|https://www.overstock.com/Electronics/Home-Office-Equipment/8/dept.html
+Monitors & Displays|https://www.overstock.com/Electronics/Monitors-Displays/215/dept.html
+Printers & Scanners|https://www.overstock.com/Electronics/Printers-Scanners/214/dept.html
+Televisions|https://www.overstock.com/Electronics/Televisions/2171/cat.html
+Speakers|https://www.overstock.com/Electronics/Speakers/2170/cat.html
+Smart Home & Security|https://www.overstock.com/Electronics/Home-Automation-Security/475/dept.html
+Gifts|https://www.overstock.com/Gifts-Flowers/Gifts/124/dept.html
+Gift Baskets|https://www.overstock.com/Gifts-Flowers/Gift-Baskets/125/dept.html
+Flowers & Plants|https://www.overstock.com/Gifts-Flowers/Flowers-Plants/126/dept.html
+Humidors & Cigars|https://www.overstock.com/Gifts-Flowers/Humidors-Cigars/127/dept.html
+Jewelry & Watch Boxes|https://www.overstock.com/Gifts-Flowers/Jewelry-Watch-Boxes/128/dept.html
+Musical Instruments|https://www.overstock.com/Gifts-Flowers/Musical-Instruments/129/dept.html
+Photo Gifts|https://www.overstock.com/Gifts-Flowers/Photo-Gifts/131/dept.html
+Wedding Planning|https://www.overstock.com/Gifts-Flowers/Wedding-Planning/237/dept.html
+Gift Towers & Boxes|https://www.overstock.com/Gifts-Flowers/Gift-Towers-Boxes/468/dept.html
+Mobility & Transportation|https://www.overstock.com/Health-Beauty/Mobility-Transportation/38/dept.html
+Holistic Supplies|https://www.overstock.com/Health-Beauty/Holistic-Supplies/41/dept.html
+Fitness & Nutrition|https://www.overstock.com/Health-Beauty/Fitness-Nutrition/39/dept.html
+Beauty Products|https://www.overstock.com/Health-Beauty/Beauty-Products/210/dept.html
+Funeral|https://www.overstock.com/Health-Beauty/Funeral/240/dept.html
+Healthcare & Supplies|https://www.overstock.com/Health-Beauty/Healthcare-Supplies/37/dept.html
+Kitchen & Dining|https://www.overstock.com/Home-Garden/Kitchen-Dining/2/dept.html
+Housewares|https://www.overstock.com/Home-Garden/Housewares/31/dept.html
+Garden & Patio|https://www.overstock.com/Home-Garden/Garden-Patio/4/dept.html
+Tools|https://www.overstock.com/Home-Garden/Tools/33/dept.html
+Home Improvement|https://www.overstock.com/Home-Garden/Home-Improvement/36/dept.html
+Art Gallery|https://www.overstock.com/Home-Garden/Art-Gallery/216/dept.html
+Home Office Furniture|https://www.overstock.com/Home-Garden/Home-Office-Furniture/712/cat.html
+Kids' Furniture|https://www.overstock.com/Home-Garden/Kids-Furniture/1455/cat.html
+Bedroom Furniture|https://www.overstock.com/Home-Garden/Bedroom-Furniture/710/cat.html
+Bathroom Furniture|https://www.overstock.com/Home-Garden/Bathroom-Furniture/1454/cat.html
+Dining Room & Bar Furniture|https://www.overstock.com/Home-Garden/Dining-Room-Bar-Furniture/711/cat.html
+Living Room Furniture|https://www.overstock.com/Home-Garden/Living-Room-Furniture/713/cat.html
+Men's Watches|https://www.overstock.com/Jewelry-Watches/Mens-Watches/3434/cat.html
+Women's Watches|https://www.overstock.com/Jewelry-Watches/Womens-Watches/3435/cat.html
+Kid's Watches|https://www.overstock.com/Jewelry-Watches/Kids-Watches/3433/cat.html
+Rings|https://www.overstock.com/Jewelry-Watches/Rings/2360/cat.html
+Earrings|https://www.overstock.com/Jewelry-Watches/Earrings/2353/cat.html
+Necklaces|https://www.overstock.com/Jewelry-Watches/Necklaces/2357/cat.html
+Bracelets|https://www.overstock.com/Jewelry-Watches/Bracelets/2350/cat.html
+Fashion Jewelry|https://www.overstock.com/Jewelry-Watches/Fashion-Jewelry/3221/cat.html
+Designer Jewelry|https://www.overstock.com/Jewelry-Watches/Designer-Jewelry/2352/cat.html
+Wedding Rings|https://www.overstock.com/Jewelry-Watches/Wedding-Rings/2361/cat.html
+Estate & Vintage Jewelry|https://www.overstock.com/Jewelry-Watches/Estate-Vintage-Jewelry/2354/cat.html
+Charms & Pins|https://www.overstock.com/Jewelry-Watches/Charms-Pins/3222/cat.html
+Men's Jewelry|https://www.overstock.com/Jewelry-Watches/Mens-Jewelry/2356/cat.html
+Birthstone Jewelry|https://www.overstock.com/Jewelry-Watches/Birthstone-Jewelry/3429/cat.html
+Children's Jewelry|https://www.overstock.com/Jewelry-Watches/Childrens-Jewelry/2351/cat.html
+Luggage|https://www.overstock.com/Luggage-Bags/Luggage/30/dept.html
+Bags|https://www.overstock.com/Luggage-Bags/Bags/256/dept.html
+Business Cases|https://www.overstock.com/Luggage-Bags/Business-Cases/257/dept.html
+Kids' Luggage & Bags|https://www.overstock.com/Luggage-Bags/Kids-Luggage-Bags/258/dept.html
+Travel Accessories|https://www.overstock.com/Luggage-Bags/Travel-Accessories/277/dept.html
+Desk Accessories|https://www.overstock.com/Office-Supplies/Desk-Accessories/180/dept.html
+Filing & Storage|https://www.overstock.com/Office-Supplies/Filing-Storage/181/dept.html
+General Office Supplies|https://www.overstock.com/Office-Supplies/General-Office-Supplies/182/dept.html
+Office Electronics|https://www.overstock.com/Office-Supplies/Office-Electronics/186/dept.html
+Presentation & Audiovisual|https://www.overstock.com/Office-Supplies/Presentation-Audiovisual/187/dept.html
+Pens, Pencils & Markers|https://www.overstock.com/Office-Supplies/Pens-Pencils-Markers/188/dept.html
+Collectibles|https://www.overstock.com/Sports-Toys/Collectibles/20/dept.html
+Toys & Hobbies|https://www.overstock.com/Sports-Toys/Toys-Hobbies/49/dept.html
+Recreation Room|https://www.overstock.com/Sports-Toys/Recreation-Room/50/dept.html
+Outdoors|https://www.overstock.com/Sports-Toys/Outdoors/219/dept.html
+Golf Equipment|https://www.overstock.com/Sports-Toys/Golf-Equipment/217/dept.html
+Winter Sports|https://www.overstock.com/Sports-Toys/Winter-Sports/218/dept.html
+Men's Sport Clothing|https://www.overstock.com/Sports-Toys/Mens-Sport-Clothing/287/dept.html
+Women's Sport Clothing|https://www.overstock.com/Sports-Toys/Womens-Sport-Clothing/288/dept.html
+Fishing|https://www.overstock.com/Sports-Toys/Fishing/346/dept.html
+Hunting|https://www.overstock.com/Sports-Toys/Hunting/347/dept.html
+Water Sports & Pools|https://www.overstock.com/Sports-Toys/Water-Sports-Pools/449/dept.html
