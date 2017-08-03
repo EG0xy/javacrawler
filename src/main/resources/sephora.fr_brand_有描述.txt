@@ -1,0 +1,209 @@
+ABERCROMBIE & FITCH|http://www.sephora.fr/ABERCROMBIE-FITCH/BABERC
+ALAIA PARIS|http://www.sephora.fr/ALAIA-PARIS/BALAIA
+ALESSANDRO|http://www.sephora.fr/ALESSANDRO/BSANDR
+ALTERNA|http://www.sephora.fr/ALTERNA/BALTNA
+AMIKA|http://www.sephora.fr/AMIKA/BAMIKA
+ANASTASIA BEVERLY HILLS|http://www.sephora.fr/ANASTASIA-BEVERLY-HILLS/BANAST
+AQUIS|http://www.sephora.fr/AQUIS/BAQUIS
+ATELIER COLOGNE|http://www.sephora.fr/ATELIER-COLOGNE/BCologne
+AVEDA|http://www.sephora.fr/AVEDA/BAVEDA
+AYRES|http://www.sephora.fr/AYRES/BAYRES
+AZZARO|http://www.sephora.fr/AZZARO/BAZZAR
+BABYLISS|http://www.sephora.fr/BABYLISS/BBABYL
+BAÏJA|http://www.sephora.fr/BAIJA/BBAIJA
+BALENCIAGA|http://www.sephora.fr/BALENCIAGA/BBALEN
+BAREMINERALS|http://www.sephora.fr/BAREMINERALS/BBARE
+BEAUTY BLENDER|http://www.sephora.fr/BEAUTY-BLENDER/BBLEND
+BECCA|http://www.sephora.fr/BECCA/BBECCA
+BENEFIT COSMETICS|http://www.sephora.fr/BENEFIT-COSMETICS/BBENEF
+BIOTHERM|http://www.sephora.fr/BIOTHERM/BBIOTH
+BIOTHERM HOMME|http://www.sephora.fr/BIOTHERM-HOMME/BBIOTHOMME
+BIVOUAK|http://www.sephora.fr/BIVOUAK/BBIVOU
+BLACK|UP|http://www.sephora.fr/BLACKUP/BBLACK
+BLENDSMART2|http://www.sephora.fr/BLENDSMART2/BSMART
+BOBBI BROWN|http://www.sephora.fr/BOBBI-BROWN/BBROWN
+BOUCHERON|http://www.sephora.fr/BOUCHERON/BBOUCH
+BOURJOIS|http://www.sephora.fr/BOURJOIS/BBOURJ
+BRONZ'EXPRESS|http://www.sephora.fr/BRONZ-EXPRESS/BACADE
+BUMBLE AND BUMBLE|http://www.sephora.fr/BUMBLE-AND-BUMBLE-/BBUMBL
+BURBERRY|http://www.sephora.fr/BURBERRY/BBURB
+BVLGARI|http://www.sephora.fr/BVLGARI/BBULGA
+BY TERRY|http://www.sephora.fr/BY-TERRY/BTERRY
+BYE BYE RACINES|http://www.sephora.fr/BYE-BYE-RACINES/BBYEBY
+CACHAREL|http://www.sephora.fr/CACHAREL/BCACHA
+CALVIN KLEIN|http://www.sephora.fr/CALVIN-KLEIN/BCALVI
+CAOLION|http://www.sephora.fr/CAOLION/BCAOLI
+CAROLINA HERRERA|http://www.sephora.fr/CAROLINA-HERRERA/BHERRE
+CARON|http://www.sephora.fr/CARON/BCARON
+CARTIER|http://www.sephora.fr/CARTIER/BCARTI
+CARVEN|http://www.sephora.fr/CARVEN/BCARVE
+CELLU-CUP|http://www.sephora.fr/CELLU-CUP/BCELLU
+CERRUTI|http://www.sephora.fr/CERRUTI/BCERUT
+CHANEL|http://www.sephora.fr/CHANEL/BCHANE
+CHLOÉ|http://www.sephora.fr/CHLOE/BCHLOE
+CHRISTOPHE ROBIN|http://www.sephora.fr/CHRISTOPHE-ROBIN/BROBIN
+CIATÉ|http://www.sephora.fr/CIATE/BCIATE
+CLARINS|http://www.sephora.fr/CLARINS/BCLARI
+CLARISONIC|http://www.sephora.fr/CLARISONIC/BSONIC
+CLINIQUE|http://www.sephora.fr/CLINIQUE/BCLINI
+COLOR ME|http://www.sephora.fr/COLOR-ME/BCOLME
+DAFNI|http://www.sephora.fr/DAFNI/BDAFNI
+DAVIDOFF|http://www.sephora.fr/DAVIDOFF/BDAVID
+DE BRUYÈRE|http://www.sephora.fr/DE-BRUYERE/BDEBRU
+DECLÉOR|http://www.sephora.fr/DECLEOR/BDECLE
+DIESEL|http://www.sephora.fr/DIESEL/BDIESE
+DIOR|http://www.sephora.fr/DIOR/BDIOR
+DISNEY|http://www.sephora.fr/DISNEY/BCECIL
+DOLCE&GABBANA|http://www.sephora.fr/DOLCE-GABBANA/BDOLCE
+DR. BRANDT SKINCARE|http://www.sephora.fr/DR-BRANDT-SKINCARE/BBRAND
+DR.JART+|http://www.sephora.fr/DRJART/BDRJAR
+DRYBAR|http://www.sephora.fr/DRYBAR/BDRYB
+DYSON|http://www.sephora.fr/DYSON/BDYSON
+ELIE SAAB|http://www.sephora.fr/ELIE-SAAB/BSAAB
+ELIZABETH ARDEN|http://www.sephora.fr/ELIZABETH-ARDEN/BELIZA
+ELLIS FAAS|http://www.sephora.fr/ELLIS-FAAS/BEFAAS2
+ERBORIAN|http://www.sephora.fr/ERBORIAN/BERBOR
+ESCADA|http://www.sephora.fr/ESCADA/BESCAD
+ESSENTIEL PAR EUGENE PERMA|http://www.sephora.fr/ESSENTIEL-PAR-EUGENE-PERMA/BPERMA
+ESSIE|http://www.sephora.fr/ESSIE/BESSIE
+ESTÉE LAUDER|http://www.sephora.fr/ESTEE-LAUDER/BLAUDE
+ESTHEDERM|http://www.sephora.fr/ESTHEDERM/BESTHE
+ETTANG|http://www.sephora.fr/ETTANG/BETTAN
+FACED|http://www.sephora.fr/FACED/BFACE%20D
+FILOSOFILLE|http://www.sephora.fr/FILOSOFILLE/BFILOS
+FOAMOUS|http://www.sephora.fr/FOAMOUS/BFOAMOUS
+FOREO|http://www.sephora.fr/FOREO/BFOREO
+FORMULA X|http://www.sephora.fr/FORMULA-X/BFORMX
+FRESH|http://www.sephora.fr/FRESH/BFRESH
+GARANCIA|http://www.sephora.fr/GARANCIA/BGARAN
+GEOFFREY BEENE|http://www.sephora.fr/GEOFFREY-BEENE/BBEENE
+GIORGIO ARMANI|http://www.sephora.fr/GIORGIO-ARMANI/BRMANI
+GIORGIO BEVERLY HILLS|http://www.sephora.fr/GIORGIO-BEVERLY-HILLS/BBEVER
+GIVENCHY|http://www.sephora.fr/GIVENCHY/BGIVEN
+GLAMGLOW|http://www.sephora.fr/GLAMGLOW/BGLAM
+GRÈS|http://www.sephora.fr/GRES/BGRES
+GUCCI|http://www.sephora.fr/GUCCI/BGUCCI
+GUERLAIN|http://www.sephora.fr/GUERLAIN/BGUERL
+GUY LAROCHE|http://www.sephora.fr/GUY-LAROCHE/BLAROC
+HANAE MORI|http://www.sephora.fr/HANAE-MORI/BHANAE
+HAPSATOUSY|http://www.sephora.fr/HAPSATOUSY/BHAPSA
+HAWAIIAN TROPIC|http://www.sephora.fr/HAWAIIAN-TROPIC/BHAWAI
+HEI POA|http://www.sephora.fr/HEI-POA/BHEIPO
+HELLO KITTY|http://www.sephora.fr/HELLO-KITTY/BHASBR
+HERBORIST|http://www.sephora.fr/HERBORIST/BHERBO
+HERMÈS|http://www.sephora.fr/HERMES/Bhermes
+HÉRÔME|http://www.sephora.fr/HEROME/BHEROME
+HERSHESONS|http://www.sephora.fr/HERSHESONS/BHERSH
+HOLLISTER|http://www.sephora.fr/HOLLISTER/BHOLLI
+HOURGLASS|http://www.sephora.fr/HOURGLASS/BHOURG
+HUDA BEAUTY|http://www.sephora.fr/HUDA-BEAUTY/BHUDA
+HUGO BOSS|http://www.sephora.fr/HUGO-BOSS/BBOSS
+HUMAN+KIND|http://www.sephora.fr/HUMANKIND/BHUMAN
+IKKS|http://www.sephora.fr/IKKS/BIKKS
+ILLUMINAGE|http://www.sephora.fr/ILLUMINAGE/BILUMI
+INVISIBOBBLE|http://www.sephora.fr/INVISIBOBBLE/BINVIS
+ISSEY MIYAKE|http://www.sephora.fr/ISSEY-MIYAKE/BISSEY
+JACADI|http://www.sephora.fr/JACADI/BJACAD
+JEAN LOUIS SCHERRER|http://www.sephora.fr/JEAN-LOUIS-SCHERRER/BSCHRR
+JEAN PAUL GAULTIER|http://www.sephora.fr/JEAN-PAUL-GAULTIER/BGAULT
+JIMMY CHOO|http://www.sephora.fr/JIMMY-CHOO/BCHOO
+JOHN FRIEDA|http://www.sephora.fr/JOHN-FRIEDA/BFRIED
+JULIETTE HAS A GUN|http://www.sephora.fr/JULIETTE-HAS-A-GUN/BJHAG
+JUSTIN BIEBER|http://www.sephora.fr/JUSTIN-BIEBER/BBIEBE
+KAT VON D|http://www.sephora.fr/KAT-VON-D/BKVD
+KENZO|http://www.sephora.fr/KENZO/BKENZO
+KIESQUE|http://www.sephora.fr/KIESQUE/BKIESQ
+KISS|http://www.sephora.fr/KISS/BDIACO
+L'ORÉAL PARIS|http://www.sephora.fr/L-OREAL-PARIS/BOREAL
+LA MER|http://www.sephora.fr/LA-MER/BCDLM
+LA PRAIRIE|http://www.sephora.fr/LA-PRAIRIE/BPRAIR
+LACOSTE|http://www.sephora.fr/LACOSTE/BLACOS
+LANCASTER|http://www.sephora.fr/LANCASTER/BLANCA
+LANCÔME|http://www.sephora.fr/LANCOME/BLANCO
+LANVIN|http://www.sephora.fr/LANVIN/BLANVI
+LE MINI MACARON|http://www.sephora.fr/LE-MINI-MACARON/BMACAR
+LEE STAFFORD|http://www.sephora.fr/LEE-STAFFORD/BLEE
+LEONOR GREYL|http://www.sephora.fr/LEONOR-GREYL/BLEONO
+LES MERVEILLEUSES LADURÉE|http://www.sephora.fr/LES-MERVEILLEUSES-LADUREE/BLADUR
+LIPSTICK QUEEN|http://www.sephora.fr/LIPSTICK-QUEEN/BLIPSQ
+LOLITA LEMPICKA|http://www.sephora.fr/LOLITA-LEMPICKA/BLOLIT
+LOLLIPOPS|http://www.sephora.fr/LOLLIPOPS/BLOLLI
+LYSEDIA|http://www.sephora.fr/LYSEDIA/BLYSED
+MAI COUTURE|http://www.sephora.fr/MAI-COUTURE/BMAICO
+MAKE UP ERASER|http://www.sephora.fr/MAKE-UP-ERASER/BERASE
+MAKE UP FOR EVER|http://www.sephora.fr/MAKE-UP-FOR-EVER/BMAKE
+MANGO|http://www.sephora.fr/MANGO/BMNG
+MARBELLA PARIS|http://www.sephora.fr/MARBELLA-PARIS/BMARBE
+MARC JACOBS BEAUTY|http://www.sephora.fr/MARC-JACOBS-BEAUTY/BJACOB
+MARC JACOBS PARFUMS|http://www.sephora.fr/MARC-JACOBS-PARFUMS/BMARC
+MAVALA|http://www.sephora.fr/MAVALA/BMAVAL
+MERCI HANDY|http://www.sephora.fr/MERCI-HANDY/BHANDY
+MILLER HARRIS|http://www.sephora.fr/MILLER-HARRIS/BMHARR
+MIU MIU|http://www.sephora.fr/MIU-MIU/BMIUM
+MOLINARD|http://www.sephora.fr/MOLINARD/BMOLIN
+MONTBLANC|http://www.sephora.fr/MONTBLANC/BMONTB
+MUGLER|http://www.sephora.fr/MUGLER/BMUGLE
+NAILS INC.|http://www.sephora.fr/NAILS-INC/BNAILS
+NARCISO RODRIGUEZ|http://www.sephora.fr/NARCISO-RODRIGUEZ/BRODRI
+NARS|http://www.sephora.fr/NARS/BNARS
+NIA|http://www.sephora.fr/NIA/BNIA
+NINA RICCI|http://www.sephora.fr/NINA-RICCI/BNINA
+NUDESTIX|http://www.sephora.fr/NUDESTIX/BNUDES
+OPI|http://www.sephora.fr/OPI/BOPI
+OUAI|http://www.sephora.fr/OUAI/BOUAI
+PACO RABANNE|http://www.sephora.fr/PACO-RABANNE/BPACO
+PALOMA PICASSO|http://www.sephora.fr/PALOMA-PICASSO/BPICAS
+PERCY & REED|http://www.sephora.fr/PERCY-REED/BPERCY
+PETER THOMAS ROTH|http://www.sephora.fr/PETER-THOMAS-ROTH/BPTR
+PINK SUGAR|http://www.sephora.fr/PINK-SUGAR/BPINK
+PLAYMOBIL|http://www.sephora.fr/PLAYMOBIL/BPLAY
+PRADA|http://www.sephora.fr/PRADA/BPRADA
+PRORASO|http://www.sephora.fr/PRORASO/BPRORA
+RALPH LAUREN|http://www.sephora.fr/RALPH-LAUREN/BRALPH
+REMINISCENCE|http://www.sephora.fr/REMINISCENCE/BREMIN
+REPETTO|http://www.sephora.fr/REPETTO/BREPET
+REXALINE|http://www.sephora.fr/REXALINE/BREXAL
+RITUALS|http://www.sephora.fr/RITUALS/BRITUA
+ROBERTO CAVALLI|http://www.sephora.fr/ROBERTO-CAVALLI/BCAVAP
+ROCHAS|http://www.sephora.fr/ROCHAS/BROCHA
+SANOFLORE|http://www.sephora.fr/SANOFLORE/BSANOF
+SEPHORA|http://www.sephora.fr/SEPHORA/BSEPHO
+SERGE LUTENS|http://www.sephora.fr/SERGE-LUTENS/BLUTEN
+SHIFFA|http://www.sephora.fr/SHIFFA/BSHIFF
+SHISEIDO|http://www.sephora.fr/SHISEIDO/BSHISE
+SISLEY|http://www.sephora.fr/SISLEY/BSISLE
+SKIN79|http://www.sephora.fr/SKIN79/BSKI79
+SKINFOOD|http://www.sephora.fr/SKINFOOD/BSKINF
+SLEEK MAKEUP|http://www.sephora.fr/SLEEK-MAKEUP/BSLEEK
+SMASHBOX|http://www.sephora.fr/SMASHBOX/BSMASH
+SOL DE JANEIRO|http://www.sephora.fr/SOL-DE-JANEIRO/BJANEI
+SOLINOTES|http://www.sephora.fr/SOLINOTES/BSOLI
+STEAMCREAM|http://www.sephora.fr/STEAMCREAM/BSTEAMCREAM
+STRIVECTIN|http://www.sephora.fr/STRIVECTIN/BSTRIV
+ST.TROPEZ|http://www.sephora.fr/STTROPEZ/BTROPE
+TALIKA|http://www.sephora.fr/TALIKA/BTALIK
+TANGLE TEEZER|http://www.sephora.fr/TANGLE-TEEZER/BTANGL
+TEMPTU|http://www.sephora.fr/TEMPTU/BTEMPT
+THE GLAM TATOO COMPANY®|http://www.sephora.fr/THE-GLAM-TATOO-COMPANY/BGLAMT
+THIS WORKS|http://www.sephora.fr/THIS-WORKS/BTHISW
+TOM FORD|http://www.sephora.fr/TOM-FORD/BFORD
+TONI & GUY|http://www.sephora.fr/TONI-GUY/BTONI
+TONYMOLY|http://www.sephora.fr/TONYMOLY/BTONYM
+TOO COOL FOR SCHOOL|http://www.sephora.fr/TOO-COOL-FOR-SCHOOL/BTCFS
+TOO FACED|http://www.sephora.fr/TOO-FACED/BTOO
+TOPPIK|http://www.sephora.fr/TOPPIK/BTOPPI
+TRAVALO|http://www.sephora.fr/TRAVALO/BTRAVA
+TWEEXY|http://www.sephora.fr/TWEEXY/BTWEEX
+TWEEZERMAN|http://www.sephora.fr/TWEEZERMAN/BTWEEZ
+URBAN DECAY|http://www.sephora.fr/URBAN-DECAY/BURBAN
+VALENTINO|http://www.sephora.fr/VALENTINO/BVALEN
+VAN CLEEF & ARPELS|http://www.sephora.fr/VAN-CLEEF-ARPELS/BCLEEF
+VERSACE|http://www.sephora.fr/VERSACE/BVERSA
+VIKTOR & ROLF|http://www.sephora.fr/VIKTOR-ROLF/BROLF
+VITA COCO|http://www.sephora.fr/VITA-COCO/BVITCO
+VITA LIBERATA|http://www.sephora.fr/VITA-LIBERATA/BVITA
+WAHL|http://www.sephora.fr/WAHL/BWAHL
+WUNDER 2|http://www.sephora.fr/WUNDER-2/BWUNDE
+YVES SAINT LAURENT|http://www.sephora.fr/YVES-SAINT-LAURENT/BYSL
+ZADIG & VOLTAIRE|http://www.sephora.fr/ZADIG-VOLTAIRE/BZADIG
+ZOEVA|http://www.sephora.fr/ZOEVA/BZOEVA
