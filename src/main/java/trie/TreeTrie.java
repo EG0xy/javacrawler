@@ -1,52 +1,143 @@
 package trie;
 
-import com.google.common.collect.ImmutableSet;
 
-import java.util.Collection;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
- * @author holysky.zhao 2017/8/4 18:00
+ * Trie Tree 实现
+ * @author holysky.zhao 2017/8/4 19:12
  * @version 1.0.0
  */
-public class TreeTrie extends TreeSet<String> implements Trie {
+public class TreeTrie {
 
-    public TreeTrie(Collection<String> c) {
-        super(c);
+    private class TrieNode {
+        Map<Character, TrieNode> children;
+        boolean endOfWord;
+
+        public TrieNode() {
+            children = new HashMap<>();
+            endOfWord = false;
+        }
     }
 
-    public boolean isPrefix(String prefix) {
-        String nextWord = ceiling(prefix);
-        if (nextWord == null) {
-            return false;
-        }
-        if (nextWord.equals(prefix)) {
-            Set<String> tail = tailSet(nextWord, false);
-            if (tail.isEmpty()) {
-                return false;
-            }
-            nextWord = tail.iterator().next();
-        }
+    private final TrieNode root;
 
-        return nextWord.startsWith(prefix);
+    public TreeTrie() {
+        root = new TrieNode();
     }
 
     /**
-     * There is a mismatch between the parameter types of vocabulary and TreeSet, so
-     * force call to the upper-class method
+     * Iterative implementation of insert into trie
      */
-    public boolean contains(String word) {
-        return super.contains(word);
+    public void insert(String word) {
+        TrieNode current = root;
+        for (int i = 0; i < word.length(); i++) {
+            char ch = word.charAt(i);
+            TrieNode node = current.children.computeIfAbsent(ch, k -> new TrieNode());
+            current = node;
+        }
+        //mark the current nodes endOfWord as true
+        current.endOfWord = true;
     }
 
-    public static void main(String[] args) {
-        TreeTrie treeTrie = new TreeTrie(ImmutableSet.of("1","123","a","abc"));
-        boolean prefix = treeTrie.isPrefix("1");
-        System.out.println("1 is prefix:"+prefix);
-        System.out.println("123 is prefix:"+treeTrie.isPrefix("123"));
-
+    /**
+     * Recursive implementation of insert into trie
+     */
+    public void insertRecursive(String word) {
+        insertRecursive(root, word, 0);
     }
 
 
+    private void insertRecursive(TrieNode current, String word, int index) {
+        if (index == word.length()) {
+            //if end of word is reached then mark endOfWord as true on current node
+            current.endOfWord = true;
+            return;
+        }
+        char ch = word.charAt(index);
+        TrieNode node = current.children.get(ch);
+
+        //if node does not exists in map then create one and put it into map
+        if (node == null) {
+            node = new TrieNode();
+            current.children.put(ch, node);
+        }
+        insertRecursive(node, word, index + 1);
+    }
+
+    /**
+     * Iterative implementation of search into trie.
+     */
+    public boolean search(String word) {
+        TrieNode current = root;
+        for (int i = 0; i < word.length(); i++) {
+            char ch = word.charAt(i);
+            TrieNode node = current.children.get(ch);
+            //if node does not exist for given char then return false
+            if (node == null) {
+                return false;
+            }
+            current = node;
+        }
+        //return true of current's endOfWord is true else return false.
+        return current.endOfWord;
+    }
+
+    /**
+     * Recursive implementation of search into trie.
+     */
+    public boolean searchRecursive(String word) {
+        return searchRecursive(root, word, 0);
+    }
+
+    private boolean searchRecursive(TrieNode current, String word, int index) {
+        if (index == word.length()) {
+            //return true of current's endOfWord is true else return false.
+            return current.endOfWord;
+        }
+        char ch = word.charAt(index);
+        TrieNode node = current.children.get(ch);
+        //if node does not exist for given char then return false
+        if (node == null) {
+            return false;
+        }
+        return searchRecursive(node, word, index + 1);
+    }
+
+    /**
+     * Delete word from trie.
+     */
+    public void delete(String word) {
+        delete(root, word, 0);
+    }
+
+    /**
+     * Returns true if parent should delete the mapping
+     */
+    private boolean delete(TrieNode current, String word, int index) {
+        if (index == word.length()) {
+            //when end of word is reached only delete if currrent.endOfWord is true.
+            if (!current.endOfWord) {
+                return false;
+            }
+            current.endOfWord = false;
+            //if current has no other mapping then return true
+            return current.children.size() == 0;
+        }
+        char ch = word.charAt(index);
+        TrieNode node = current.children.get(ch);
+        if (node == null) {
+            return false;
+        }
+        boolean shouldDeleteCurrentNode = delete(node, word, index + 1);
+
+        //if true is returned then delete the mapping of character and trienode reference from map.
+        if (shouldDeleteCurrentNode) {
+            current.children.remove(ch);
+            //return true if no mappings are left in the map.
+            return current.children.size() == 0;
+        }
+        return false;
+    }
 }

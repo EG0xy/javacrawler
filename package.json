@@ -1,0 +1,9 @@
+{
+  "name": "brandcrawler",
+  "version": "0.0.1",
+  "dependencies": {
+    "lodash": "latest",
+    "cheerio": "latest",
+    "chrome-remote-interface": "latest"
+  }
+}

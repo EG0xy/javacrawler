@@ -9,18 +9,18 @@ package trie;
 import java.util.Collection;
 
 
-public class LowercaseTrieVocabulary implements Trie {
+public class ArrayTrie implements Trie {
 
     private boolean isWord = false;
     // The number of possible children is the number of letters in the alphabet
-    private LowercaseTrieVocabulary[] children = new LowercaseTrieVocabulary[26];
+    private ArrayTrie[] children = new ArrayTrie[26];
     // This is the number of actual children
     private int numChildren = 0;
 
-    public LowercaseTrieVocabulary() {
+    public ArrayTrie() {
     }
 
-    public LowercaseTrieVocabulary(Collection<String> words) {
+    public ArrayTrie(Collection<String> words) {
         for (String w:words) {
             add(w);
         }
@@ -36,9 +36,9 @@ public class LowercaseTrieVocabulary implements Trie {
         if (index < 0) {
             System.out.println("uf");
         }
-        LowercaseTrieVocabulary child = children[index];
+        ArrayTrie child = children[index];
         if (child == null) {
-            child = new LowercaseTrieVocabulary();
+            child = new ArrayTrie();
             children[index] = child;
             numChildren++;
         }
@@ -61,7 +61,7 @@ public class LowercaseTrieVocabulary implements Trie {
      * @return
      */
     public boolean contains(String s) {
-        LowercaseTrieVocabulary n = getNode(s);
+        ArrayTrie n = getNode(s);
         return n != null && n.isWord;
     }
 
@@ -71,7 +71,7 @@ public class LowercaseTrieVocabulary implements Trie {
      * @return
      */
     public boolean isPrefix(String s) {
-        LowercaseTrieVocabulary n = getNode(s);
+        ArrayTrie n = getNode(s);
         return n != null && n.numChildren > 0;
     }
 
@@ -80,11 +80,11 @@ public class LowercaseTrieVocabulary implements Trie {
      * @param s
      * @return
      */
-    public LowercaseTrieVocabulary getNode(String s) {
-        LowercaseTrieVocabulary node = this;
+    public ArrayTrie getNode(String s) {
+        ArrayTrie node = this;
         for (int i = 0; i < s.length(); i++) {
             int index = getIndex(s.charAt(i));
-            LowercaseTrieVocabulary child = node.children[index];
+            ArrayTrie child = node.children[index];
             if (child == null) {
                 // There is no such word
                 return null;
@@ -99,12 +99,12 @@ public class LowercaseTrieVocabulary implements Trie {
      * @return
      */
     public boolean contains(byte[] indices, int offset, int len) {
-        LowercaseTrieVocabulary n = getNode(indices, offset, len);
+        ArrayTrie n = getNode(indices, offset, len);
         return n != null && n.isWord;
     }
 
     public boolean contains(byte[] indices, int offset) {
-        LowercaseTrieVocabulary n = getNode(indices, offset, indices.length-offset);
+        ArrayTrie n = getNode(indices, offset, indices.length-offset);
         return n != null && n.isWord;
     }
 
@@ -113,12 +113,12 @@ public class LowercaseTrieVocabulary implements Trie {
      * @return
      */
     public boolean isPrefix(byte[] indices, int offset, int len) {
-        LowercaseTrieVocabulary n = getNode(indices, offset, len);
+        ArrayTrie n = getNode(indices, offset, len);
         return n != null && n.numChildren > 0;
     }
 
     public boolean isPrefix(byte[] indices, int offset) {
-        LowercaseTrieVocabulary n = getNode(indices, offset, indices.length-offset);
+        ArrayTrie n = getNode(indices, offset, indices.length-offset);
         return n != null && n.numChildren > 0;
     }
 
@@ -126,11 +126,11 @@ public class LowercaseTrieVocabulary implements Trie {
      * Returns the node corresponding to the string represented as indices
      * @return
      */
-    public LowercaseTrieVocabulary getNode(byte[] indices, int offset, int len) {
-        LowercaseTrieVocabulary node = this;
+    public ArrayTrie getNode(byte[] indices, int offset, int len) {
+        ArrayTrie node = this;
         for (int i = 0; i < len; i++) {
             int index = indices[offset+i];
-            LowercaseTrieVocabulary child = node.children[index];
+            ArrayTrie child = node.children[index];
             if (child == null) {
                 // There is no such word
                 return null;

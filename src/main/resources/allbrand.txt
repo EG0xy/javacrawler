@@ -4186,7 +4186,6 @@ AG
 AG Adriano Goldschmied
 AG for A Pea in the Pod
 AG Green Label
-AG_JEANS
 Aga Khan Foundation USA
 Agabang
 Agadir
@@ -5306,7 +5305,6 @@ Asta Yoga
 AStarr
 Astek Wallcovering Inc
 Astella
-Aster Elliot
 Aster Elliott
 Astley Clarke
 Astor & Black

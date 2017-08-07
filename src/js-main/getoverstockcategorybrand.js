@@ -27,7 +27,6 @@ CDP(chrome => {
             return tasks.reduce((promise, task) => promise.then((data) => fn(task, data)), Promise.resolve(new Map()));
         }
 
-
         function getBrands(line, data) {
             if(line.startsWith("###")) return Promise.resolve(data);
 
