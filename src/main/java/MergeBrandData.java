@@ -1,12 +1,15 @@
 import org.apache.commons.lang3.StringUtils;
+import org.json.JSONWriter;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.StringWriter;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 /**
@@ -56,14 +59,19 @@ public class MergeBrandData {
                                                     .map(BrandFile::getBrandNames).flatMap((it) -> it.stream())
                                                     .sorted()
                                                     .collect(Collectors.groupingBy(Brand::getFirstWord));
+        final AtomicInteger brandId = new AtomicInteger(1);
         brandGroup.keySet().stream().sorted(String::compareToIgnoreCase)
                   .forEach((key) -> {
                       final Set<Brand> val = new HashSet<>(brandGroup.get(key));
-                      if (val.size() == 1) {
-                          System.out.println(val.iterator().next().getBrandName());
-                      } else {
-                          String valStr = val.stream().map(Brand::getBrandName).collect(Collectors.joining(","));
-                          System.out.println(key + "=>" + String.join(",", valStr));
+                      List<String> brands = val.stream().map(Brand::getBrandName).sorted().collect(Collectors.toList());
+                      int parentBrandId = brandId.get();
+                      for (int i = 0; i < brands.size(); i++) {
+                          int currentBrandId = brandId.getAndIncrement();
+                          StringWriter sw = new StringWriter();
+                          JSONWriter writer = new JSONWriter(sw);
+                          writer.object().key("brandId").value(currentBrandId).key("brandName")
+                                .value(brands.get(i)).key("brandParentId").value(i == 0 ? 0 : parentBrandId).endObject();
+                          System.out.println(sw.append(",").toString());
                       }
                   });
     }

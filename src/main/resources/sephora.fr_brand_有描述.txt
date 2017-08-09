@@ -1,27 +1,27 @@
-ABERCROMBIE & FITCH|http://www.sephora.fr/ABERCROMBIE-FITCH/BABERC
-ALAIA PARIS|http://www.sephora.fr/ALAIA-PARIS/BALAIA
-ALESSANDRO|http://www.sephora.fr/ALESSANDRO/BSANDR
-ALTERNA|http://www.sephora.fr/ALTERNA/BALTNA
-AMIKA|http://www.sephora.fr/AMIKA/BAMIKA
-ANASTASIA BEVERLY HILLS|http://www.sephora.fr/ANASTASIA-BEVERLY-HILLS/BANAST
-AQUIS|http://www.sephora.fr/AQUIS/BAQUIS
-ATELIER COLOGNE|http://www.sephora.fr/ATELIER-COLOGNE/BCologne
-AVEDA|http://www.sephora.fr/AVEDA/BAVEDA
-AYRES|http://www.sephora.fr/AYRES/BAYRES
-AZZARO|http://www.sephora.fr/AZZARO/BAZZAR
-BABYLISS|http://www.sephora.fr/BABYLISS/BBABYL
-BAÏJA|http://www.sephora.fr/BAIJA/BBAIJA
-BALENCIAGA|http://www.sephora.fr/BALENCIAGA/BBALEN
-BAREMINERALS|http://www.sephora.fr/BAREMINERALS/BBARE
-BEAUTY BLENDER|http://www.sephora.fr/BEAUTY-BLENDER/BBLEND
-BECCA|http://www.sephora.fr/BECCA/BBECCA
-BENEFIT COSMETICS|http://www.sephora.fr/BENEFIT-COSMETICS/BBENEF
-BIOTHERM|http://www.sephora.fr/BIOTHERM/BBIOTH
-BIOTHERM HOMME|http://www.sephora.fr/BIOTHERM-HOMME/BBIOTHOMME
-BIVOUAK|http://www.sephora.fr/BIVOUAK/BBIVOU
-BLACK|UP|http://www.sephora.fr/BLACKUP/BBLACK
-BLENDSMART2|http://www.sephora.fr/BLENDSMART2/BSMART
-BOBBI BROWN|http://www.sephora.fr/BOBBI-BROWN/BBROWN
+#ABERCROMBIE & FITCH|http://www.sephora.fr/ABERCROMBIE-FITCH/BABERC
+#ALAIA PARIS|http://www.sephora.fr/ALAIA-PARIS/BALAIA
+#ALESSANDRO|http://www.sephora.fr/ALESSANDRO/BSANDR
+#ALTERNA|http://www.sephora.fr/ALTERNA/BALTNA
+#AMIKA|http://www.sephora.fr/AMIKA/BAMIKA
+#ANASTASIA BEVERLY HILLS|http://www.sephora.fr/ANASTASIA-BEVERLY-HILLS/BANAST
+#AQUIS|http://www.sephora.fr/AQUIS/BAQUIS
+#ATELIER COLOGNE|http://www.sephora.fr/ATELIER-COLOGNE/BCologne
+#AVEDA|http://www.sephora.fr/AVEDA/BAVEDA
+#AYRES|http://www.sephora.fr/AYRES/BAYRES
+#AZZARO|http://www.sephora.fr/AZZARO/BAZZAR
+#BABYLISS|http://www.sephora.fr/BABYLISS/BBABYL
+#BAÏJA|http://www.sephora.fr/BAIJA/BBAIJA
+#BALENCIAGA|http://www.sephora.fr/BALENCIAGA/BBALEN
+#BAREMINERALS|http://www.sephora.fr/BAREMINERALS/BBARE
+#BEAUTY BLENDER|http://www.sephora.fr/BEAUTY-BLENDER/BBLEND
+#BECCA|http://www.sephora.fr/BECCA/BBECCA
+#BENEFIT COSMETICS|http://www.sephora.fr/BENEFIT-COSMETICS/BBENEF
+#BIOTHERM|http://www.sephora.fr/BIOTHERM/BBIOTH
+#BIOTHERM HOMME|http://www.sephora.fr/BIOTHERM-HOMME/BBIOTHOMME
+#BIVOUAK|http://www.sephora.fr/BIVOUAK/BBIVOU
+#BLACK\UP|http://www.sephora.fr/BLACKUP/BBLACK
+#BLENDSMART2|http://www.sephora.fr/BLENDSMART2/BSMART
+#BOBBI BROWN|http://www.sephora.fr/BOBBI-BROWN/BBROWN
 BOUCHERON|http://www.sephora.fr/BOUCHERON/BBOUCH
 BOURJOIS|http://www.sephora.fr/BOURJOIS/BBOURJ
 BRONZ'EXPRESS|http://www.sephora.fr/BRONZ-EXPRESS/BACADE
