@@ -11,6 +11,9 @@ import edu.stanford.nlp.sequences.DocumentReaderAndWriter;
 import edu.stanford.nlp.util.Triple;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -35,8 +38,16 @@ public class Test {
 
     }
 
+    static class BrandBean{
+        private String name;
+        private String descEn;
+        private String descCn;
 
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
+    }
+
+
+    public static void main(String[] args) throws IOException, ClassNotFoundException, URISyntaxException {
+        String content = org.apache.commons.io.IOUtils.toString(Files.newBufferedReader(Paths.get(GetShopSpringBrandDesc.class.getResource("/result/branddata_regular.json").toURI())));
 
 
         String text = "当Italo Fontana无意间发现他的爷爷大约在1942年专为意大利海军设计的手表草图的时候，他便意识到自己发现了什么特别的东西。那些设计要满足海军的高品质标准并需要遵守特殊的技术要求，确保在不同情况下最大的可见度和可靠性。由于当时的政治环境所限，这些设计从没被真正地投入生产。但是穿越过时间，他们成了U-Boat品牌背后的灵感来源。";
