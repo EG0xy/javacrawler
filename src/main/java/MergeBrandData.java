@@ -17,37 +17,6 @@ import java.util.stream.Collectors;
  * @version 1.0.0
  */
 public class MergeBrandData {
-    public static final Map<Character, Character> VOWEL_MAP = new HashMap<>();
-
-    static {
-        VOWEL_MAP.put('Ā','A');
-        VOWEL_MAP.put('Á','A');
-        VOWEL_MAP.put('Ǎ','A');
-        VOWEL_MAP.put('À','A');
-        VOWEL_MAP.put('À','A');
-        VOWEL_MAP.put('Ō','O');
-        VOWEL_MAP.put('Ó','O');
-        VOWEL_MAP.put('Ǒ','O');
-        VOWEL_MAP.put('Ò','O');
-        VOWEL_MAP.put('Ê','E');
-        VOWEL_MAP.put('Ē','E');
-        VOWEL_MAP.put('É','E');
-        VOWEL_MAP.put('Ě','E');
-        VOWEL_MAP.put('È','E');
-        VOWEL_MAP.put('Ī','I');
-        VOWEL_MAP.put('Í','I');
-        VOWEL_MAP.put('Ǐ','I');
-        VOWEL_MAP.put('Ì','I');
-        VOWEL_MAP.put('Ï', 'I');
-        VOWEL_MAP.put('Ū','U');
-        VOWEL_MAP.put('Ú','U');
-        VOWEL_MAP.put('Ǔ','U');
-        VOWEL_MAP.put('Ù','U');
-        VOWEL_MAP.put('Ǖ','U');
-        VOWEL_MAP.put('Ǘ','U');
-        VOWEL_MAP.put('Ǚ','U');
-        VOWEL_MAP.put('Ǜ','U');
-    }
 
     public static void main(String[] args) {
 
@@ -98,7 +67,7 @@ public class MergeBrandData {
         public Set<Brand> getBrandNames() {
             if (brandNames == null) {
                 brandNames = new HashSet<>();
-                try (BufferedReader reader = Files.newBufferedReader(filePath);) {
+                try (BufferedReader reader = Files.newBufferedReader(filePath)) {
                     String line;
                     while ((line = reader.readLine()) != null) {
                         if (StringUtils.isBlank(line)) {
@@ -152,13 +121,7 @@ public class MergeBrandData {
         public Brand(final String brandName) {
             this.brandName = brandName.trim();
             String brandNameUpper = this.brandName.toUpperCase();
-
-            //处理元音
-            char[] a = new char[this.brandName.length()];
-            for (int i = 0; i < brandNameUpper.length(); i++) {
-                a[i]  = VOWEL_MAP.getOrDefault(brandNameUpper.charAt(i), brandNameUpper.charAt(i));
-            }
-            this.clearBrandName = new String(a);
+            this.clearBrandName = StringUtils.stripAccents(brandNameUpper);
             ALL_BRANDS.add(this.clearBrandName);
 
         }
