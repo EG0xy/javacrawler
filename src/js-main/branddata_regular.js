@@ -1,7 +1,7 @@
 // 品牌数据规整
 let fs = require("fs");
-
 let _ = require("lodash");
+let MongoClient = require('mongodb').MongoClient;
 
 const fileMap = {
     "bloomingdales_brand.txt": (line) => {
@@ -159,13 +159,23 @@ const fileMap = {
             descCn: obj.brandDescriptionCn
         }
     },
-
+    "perfumesclub.co.uk_brand_result.txt": (line) => {
+        let obj = JSON.parse(line);
+        return {
+            name: obj.brandName,
+            nameEn: obj.brandName,
+            fromUrl: obj.brandUrl,
+            descEn: obj.brandDescription
+        }
+    }
 };
 
 let allLineCount = 0;
-let hasYearCount =0;
-let notValidCount=0; //既没有logo也没有descEn也没有descCn的brand数量
-let validCount=0;
+let hasYearCount = 0;
+let notValidCount = 0; //既没有logo也没有descEn也没有descCn的brand数量
+let validCount = 0;
+let mongoUrl = 'mongodb://10.0.0.84:27017/masterdata';
+
 
 function run() {
     /**
@@ -235,10 +245,10 @@ function checkLocal(map) {
     console.log("完全匹配 found/all=" + found + "/" + brands.size + " " + (parseInt(found * 100 / brands.size)) + "/100");
 
     //移除非字母数字空格之后再比较(首单词相同我们当做相同的)
-    let mapFn=(el) => el.replace(/[^a-z0-9 ]/gmi, "").split(" ")[0];
+    let mapFn = (el) => el.replace(/[^a-z0-9 ]/gmi, "").split(" ")[0];
     brands = new Set([...brands.keys()].map(mapFn));
     let standardBrands = new Set([...map.keys()].map(mapFn));
-    let sameCount=0,commonPrefixCount=0;
+    let sameCount = 0, commonPrefixCount = 0;
 
     [...brands.keys()].forEach((el) => {
         if (standardBrands.has(el)) {
@@ -254,20 +264,20 @@ function checkLocal(map) {
         //     }
         // }
     });
-    console.log("模糊匹配 found/all=" + (sameCount+commonPrefixCount) + "/" + brands.size + " " + (parseInt((sameCount+commonPrefixCount) * 100 / brands.size)) + "/100");
+    console.log("模糊匹配 found/all=" + (sameCount + commonPrefixCount) + "/" + brands.size + " " + (parseInt((sameCount + commonPrefixCount) * 100 / brands.size)) + "/100");
 }
 
 function commonPrefix(a, b) {
     let i = 0,
         l = Math.min(a.length, b.length);
 
-    while(i < l && a[i] === b[i]) {
+    while (i < l && a[i] === b[i]) {
         i++;
     }
     return i;
 }
 
-function writeToFile(map) {
+async function writeToFile(map) {
     let created = new Date();
     let defaultBrandObj = {
         name: null,
@@ -298,26 +308,30 @@ function writeToFile(map) {
 
     let stream = fs.createWriteStream("E:/workspace/brandcrawler/src/main/resources/result/branddata_regular.json",
         {'flags': 'w'});
+
     let str = "[\n";
+
+    let mongo_records = [];
     [...map.entries()].sort((entry) => entry[0].toUpperCase()).forEach((entry, brandId) => {
         let brandObj = Object.assign({brandId}, defaultBrandObj, entry[1]);
 
-        if(brandObj.descEn || brandObj.descCn) {
+        if (brandObj.descEn || brandObj.descCn) {
             let desc = brandObj.descEn || brandObj.descCn;
-            let matches = desc.match(/([1-2][0-9]{3})/igm)||[];
-            if (matches.length >= 2) {
+            let matches = desc.match(/([1-2][0-9]{3})/igm) || [];
+            if (matches.length) {
                 hasYearCount++;
-                brandObj.birthYear = matches[1];
+                brandObj.birthYear = matches[0];
             }
         }
-        if( _.isEmpty(brandObj.logoUrl) &&  _.isEmpty(brandObj.descCn)
-            &&  _.isEmpty(brandObj.descEn)) {
+        if (_.isEmpty(brandObj.logoUrl) && _.isEmpty(brandObj.descCn)
+            && _.isEmpty(brandObj.descEn)) {
             notValidCount++;
-        }else{
+        } else {
             validCount++;
         }
         // str += brandObj.name + "\n";
         str += JSON.stringify(brandObj) + ",\n";
+        mongo_records.push(brandObj);
     });
     str += "]\n";
     stream.write(str);
@@ -325,8 +339,14 @@ function writeToFile(map) {
     stream.close();
     console.log(`含有年份的品牌数量:${hasYearCount}`);
     console.log(`不规整的品牌数量 ${notValidCount},规整的品牌数量 ${validCount}`);
+    let db= await MongoClient.connect(mongoUrl).catch((err)=>{console.log(`connect to mongo error,${err}`)});
+    await db.collection('md_mt_brand').drop().catch(()=>{});
+    await db.collection('md_mt_brand').insertMany(mongo_records);
+    console.log(`add mongo completed!`);
+    process.exit(0);
 }
 run();
+
 
 
 

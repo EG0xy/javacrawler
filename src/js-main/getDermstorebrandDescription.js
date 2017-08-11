@@ -8,10 +8,9 @@ const $ = require('cheerio');
 const fs = require("fs");
 
 
-
 CDP(async chrome => {
     chrome.Page.enable();
-    let stream = fs.createWriteStream("E:/workspace/brandcrawler/src/main/resources/dermstore.com_brand_有描述_result.txt",
+    let stream = fs.createWriteStream("E:/workspace/brandcrawler/src/main/resources/dermstore.com_brand_有描述_result1.txt",
         { 'flags': 'a'});
     // stream.once('open', function(fd) {
     //     stream.write("My first row\n");
