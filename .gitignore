@@ -73,7 +73,7 @@ typings/
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.ear
 *.zip
@@ -144,7 +144,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-#lib/
 lib64/
 parts/
 sdist/
@@ -222,3 +221,4 @@ ENV/
 # Rope project settings
 .ropeproject
 
+src/test/
